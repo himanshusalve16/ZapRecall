@@ -1,3 +1,63 @@
+# Zaprecall - Flashcard App
+
+A simple and intuitive flashcard application built with React.js, inspired by Anki. Create and manage your study flashcards with an easy-to-use interface.
+
+## Features
+
+- Create, edit, and delete flashcard decks
+- Add, view, and delete cards within decks
+- Flip cards to reveal answers
+- Navigate between cards with previous/next buttons
+- Light and dark mode themes
+- Responsive design for desktop and mobile
+- Local storage persistence
+
+## Technology Stack
+
+- React.js
+- React Router
+- CSS for styling
+- Local Storage for data persistence
+
+## Installation
+
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Usage
+
+### Creating a Deck
+
+1. Click "Create New Deck" on the home page
+2. Enter a title for your deck
+3. Click "Create Deck"
+
+### Adding Cards
+
+1. Open a deck by clicking on it from the home page
+2. Click "Add Card"
+3. Enter a question and answer
+4. Click "Add Card"
+
+### Studying
+
+1. Open a deck
+2. Click on a card to flip between question and answer
+3. Use "Previous" and "Next" buttons to navigate between cards
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/pages/` - Page components
+- `src/utils/` - Utility functions
+- `src/styles/` - CSS styles
+
+## License
+
+MIT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
