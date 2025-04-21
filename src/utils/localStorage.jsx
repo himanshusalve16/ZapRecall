@@ -1,4 +1,4 @@
-// Get all decks from 
+// Get all decks from localStorage
 export const getDecks = () => {
   const decks = localStorage.getItem('zaprecall-decks');
   return decks ? JSON.parse(decks) : [];
